@@ -1,0 +1,91 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+   }
+   p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-top: 10px;
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+   h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 10rem;
+    margin: 2rem 0;
+    color: black;
+   }
+
+   .photoGrid{
+       max-width: 860px;
+       margin:0 auto;
+       display: flex;
+       flex-wrap:wrap;
+   }
+   
+   .figure{
+       flex-basis:calc(33.333% - 2rem);
+       border: 13px solid darkgray;
+       padding:2rem;
+       flex-grow:1;
+       margin:0 2rem 2rem 2rem;
+   }
+
+   .photo{
+       width:100%;
+   }
+
+   .button-container{
+       text-align: center;
+   }
+
+   .rm-button{    
+            font-size:16px;
+             color: red;
+            padding: 4px;
+            width: 35%;
+            line-height: 17px;
+   }
+   .rm-button:hover{
+       background-color: green;
+       color:white;
+   }
+
+   .addIcon{
+       margin:20px auto;
+       display: table;
+       padding: 40px;
+       background: url("https://image.flaticon.com/icons/svg/60/60740.svg");
+       background-size: contain;
+       border: none;
+   }
+   
+   .form {
+       background:darkslategray;
+       max-width: 360px;
+       margin: 0 auto;
+       padding: 20px;
+       border-radius: 4px;
+   }
+
+   .pst-button{
+     width: 97%;
+     padding: 10px;
+     border-radius: 4px;
+     margin-top: 10px;
+     margin-left:6px;
+     font-weight: bold;
+     background-color:grey;
+     color: floralwhite;
+   }
+   .pst-button:hover{
+       background-color: green;
+       color: white;
+   }
+
+
+
+
+
+
